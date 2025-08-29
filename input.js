@@ -26,3 +26,8 @@ export function getInputDirection() {
   lastInputDirection = inputDirection
   return inputDirection
 }
+
+export function setInputDirection() {
+  inputDirection = { x: 0, y: 0 }
+  lastInputDirection = inputDirection
+}
